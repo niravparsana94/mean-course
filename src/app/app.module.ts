@@ -10,6 +10,7 @@ import {
   MatToolbarModule,
   MatExpansionModule,
   MatProgressSpinnerModule,
+  MatPaginatorModule,
 } from "@angular/material";
 import { PostCreateComponent } from "./posts/post-create/post-create.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
@@ -38,6 +39,7 @@ import { AppRoutingModule } from "./app-routing.module";
     MatToolbarModule,
     MatExpansionModule,
     MatProgressSpinnerModule,
+    MatPaginatorModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
